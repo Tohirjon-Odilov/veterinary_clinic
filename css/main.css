@@ -398,6 +398,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s;
 }
 .header__phone img {
   margin-right: 9px;
@@ -430,6 +431,18 @@ address {
   line-height: 18px;
   color: #333333;
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+.header__phone-link:hover {
+  transition: all 0.3s;
+  color: #FFBD54;
+}
+
+.header__phone-link:active {
+  transition: all 0.3s;
+  color: #333333;
+  opacity: 0.6;
 }
 
 .header__time-wrapper {
@@ -471,13 +484,22 @@ address {
 }
 
 .nav-logo {
-  display: block;
+  display: inline-block;
   width: 177px;
   height: 100%;
+  transition: all 0.3s;
 }
 .nav-logo img {
   position: absolute;
   top: -16px;
+}
+
+.nav-logo:hover {
+  opacity: 0.8;
+}
+
+.nav-logo:active {
+  opacity: 0.6;
 }
 
 .navbar__list {
@@ -488,6 +510,25 @@ address {
   justify-content: space-between;
   list-style: none;
   gap: 50px;
+}
+
+.navbar__item {
+  position: relative;
+  transition: all 0.3s;
+}
+
+.navbar__item:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #F4FFAD;
+}
+
+.navbar__item:active {
+  transition: all 0.3s;
+  opacity: 0.6;
 }
 
 .navbar__item:first-child {
