@@ -1,7 +1,8 @@
 main {
- height: 100vh;
  background-image: url(../images/body-bg.png);
  background-repeat: no-repeat;
  background-color: #F9F9F9;
- // background-position: calc(50%) calc(50%);
+ // background-size: 100% 100%;
+ background-position-x: calc(50%);
+ background-position-y: calc(50% + 300px);
 }

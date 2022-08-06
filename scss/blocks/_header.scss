@@ -1,5 +1,9 @@
 .site-header {
+ // margin-bottom: 100px;
+ width: 100%;
  background-color: #F9F8F8;
+ position: fixed;
+ z-index: 999;
 }
 
 .header__wrapper {
@@ -212,6 +216,3 @@ address {
  text-align: right;
  color: #333333;
 }
-
-// .navbar .fish::before{
-// }
