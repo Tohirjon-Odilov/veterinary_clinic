@@ -569,7 +569,7 @@ address {
   padding: 253px 30px 200px;
   background-image: url(../../images/pet.png), url(../../images/hero-bird.png), url(../../images/pet-1.png);
   background-repeat: no-repeat;
-  background-position-x: calc(50% - 485px), calc(50% + 650px), calc(50% + 615px);
+  background-position-x: calc(50% - 485px), calc(50% + 680px), calc(50% + 645px);
   background-position-y: 2px, calc(50% + 300px), calc(50% + 365px);
 }
 
@@ -640,6 +640,7 @@ address {
 
 .quote {
   margin: 0 auto;
+  padding-bottom: 191px;
   width: 753px;
 }
 
@@ -651,6 +652,20 @@ address {
   line-height: 26px;
   text-align: center;
   color: #949494;
+}
+
+.quote blockquote::before {
+  position: absolute;
+  content: url(../../images/quote-1.png);
+  top: 0;
+  left: -90px;
+}
+
+.quote blockquote::after {
+  position: absolute;
+  content: url(../../images/quote-2.png);
+  bottom: 0;
+  right: -90px;
 }
 
 .quote__line {

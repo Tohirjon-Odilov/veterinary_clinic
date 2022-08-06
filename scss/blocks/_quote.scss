@@ -1,5 +1,6 @@
 .quote {
  margin: 0 auto;
+ padding-bottom: 191px;
  width: 753px;
 }
 
@@ -11,6 +12,20 @@
  line-height: 26px;
  text-align: center;
  color: #949494;
+}
+
+.quote blockquote::before {
+ position: absolute;
+ content: url(../../images/quote-1.png);
+ top: 0;
+ left: -90px;
+}
+
+.quote blockquote::after {
+ position: absolute;
+ content: url(../../images/quote-2.png);
+ bottom: 0;
+ right: -90px;
 }
 
 .quote__line{
