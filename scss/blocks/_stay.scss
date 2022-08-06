@@ -1,9 +1,13 @@
 .stay-section {
  position: relative;
- padding: 90px 0 88px 287px;
+ margin-bottom: 216px;
  display: flex;
  background-image: url(../../images/stay-bg.png);
  border-radius: 5px;
+}
+
+.stay{
+ padding: 90px 0 88px 287px;
 }
 
 .stay__content {

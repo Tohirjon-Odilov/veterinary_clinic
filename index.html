@@ -225,8 +225,8 @@
 									время. Вы имеете возможность оставить у нас.
 								</p>
 								<div class="service__link-wrapper">
-									<a class="btn btn-yellow"  href="#link">Узнать цену</a>
-									<a class="btn btn-black"  href="#link">Записаться на приём</a>
+									<a class="btn btn-yellow" href="#link">Узнать цену</a>
+									<a class="btn btn-black" href="#link">Записаться на приём</a>
 								</div>
 							</div>
 						</div>
@@ -238,19 +238,164 @@
 				<div class="container">
 					<div class="stay">
 						<div class="stay__content">
-							<h2 class="stay__title">
-								Будь в курсе событий
-							</h2>
-							<form action="echo.htmlacademy.ru" method="POST">
-								<input type="email" placeholder="Укажите Ваш email адрес" name="userEmail">
+							<h2 class="stay__title">Будь в курсе событий</h2>
+							<form action="https://echo.htmlacademy.ru" method="POST">
+								<input
+									type="email"
+									placeholder="Укажите Ваш email адрес"
+									name="userEmail"
+									required
+								/>
 								<button class="btn btn-black" type="submit">Подписаться</button>
 							</form>
 						</div>
-						<img src="./images/stay-img.png" width="613" height="481" alt="" class="stay__img">
+						<img
+							src="./images/stay-img.png"
+							width="613"
+							height="481"
+							alt=""
+							class="stay__img"
+						/>
 					</div>
 				</div>
 			</section>
-			
+
+			<section class="article-section">
+				<div class="container">
+					<div class="article">
+						<h2 class="article__title">Полезные статьи</h2>
+						<ul class="article__list">
+							<li class="article__item">
+								<img
+									src="./images/article-1.png"
+									width="305"
+									height="180"
+									alt="Cat"
+								/>
+								<time datetime="06/08/2022">28.08.2020</time>
+								<div class="article__item-wrapper">
+									<h3>Ультразвуковая чистка зубов</h3>
+									<p>
+										Появление в доме котенка приятное и радосное событие. Но не
+										всегда этот пушистый зверек берется от ...
+									</p>
+									<p>Читать больше</p>
+								</div>
+							</li>
+							<li class="article__item">
+								<img
+									src="./images/article-2.png"
+									width="305"
+									height="435"
+									alt="Cat"
+								/>
+							</li>
+							<li class="article__item">
+								<div class="article__link-wrapper">
+									<a class="article__link" href="#link">#собака</a>
+									<a class="article__link" href="#link">#дом</a>
+									<a class="article__link" href="#link">#уход</a>
+									<time datetime="06/08/2022">28.08.2020</time>
+								</div>
+								<div class="article__item-wrapper">
+									<h3>Перед тем как завести собаку</h3>
+									<p>
+										Появление в доме котенка приятное и радосное событие. Но не
+										всегда этот пушистый зверек берется от заводчиков, Бивают и
+										ситуации когда животное находят на улице и дают ему теплый
+										дом. И первым вопросом, который возникает у новых хозяев –
+										как определить возраст котенка. Появление в доме котенка
+										приятное и радосное событие.
+									</p>
+									<p>Читать больше</p>
+								</div>
+							</li>
+							<li class="article__item">
+								<img
+									src="./images/article-3.png"
+									width="305"
+									height="180"
+									alt="Cat"
+								/>
+								<time datetime="06/08/2022">21.07.2020</time>
+								<div class="article__item-wrapper">
+									<h3>Когда привавать питомца?</h3>
+									<p>
+										Появление в доме котенка приятное и радосное событие. Но не
+										всегда этот пушистый зверек берется от ...
+									</p>
+									<p>Читать больше</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="map-section">
+				<div class="container">
+					<div class="map">
+						<div style="position: relative; overflow: hidden">
+							<a
+								href="https://yandex.uz/maps/10366/mariupol/?utm_medium=mapframe&utm_source=maps"
+								style="
+									color: #eee;
+									font-size: 12px;
+									position: absolute;
+									top: 0px;
+								"
+								>Мариуполь</a
+							><a
+								href="https://yandex.uz/maps/10366/mariupol/?ll=37.543300%2C47.097101&utm_medium=mapframe&utm_source=maps&z=12"
+								style="
+									color: #eee;
+									font-size: 12px;
+									position: absolute;
+									top: 14px;
+								"
+								>Карта Мариуполя с улицами и номерами домов онлайн — Яндекс
+								Карты</a
+							><iframe
+								src="https://yandex.uz/map-widget/v1/-/CKarvNYt"
+								width="462"
+								height="652"
+								allowfullscreen="true"
+								style="position: relative"
+							></iframe>
+						</div>
+
+						<div class="map__content">
+							<h2 class="map__title">Обратная связь</h2>
+							<p class="map__text">
+								При возникновении вопросов по поводу работы <br />
+								клиники или консультаций, заполните форму ниже:
+							</p>
+							<form action="https://echo.htmlacademy.ru">
+								<input
+									type="text"
+									name="userName"
+									placeholder="Ваше имя"
+									required
+								/>
+								<input
+									type="email"
+									name="userEmail"
+									placeholder="Email для обратной связи"
+									required
+								/>
+								<textarea
+									name="message"
+									placeholder="Опишите Ваш вопрос."
+									required
+								>Опишите Ваш вопрос.                                           Например: в каком возрасте можно прививать от бешенства?</textarea>
+								<button class="btn map__btn" type="submit">
+									Задать нам вопрос
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<!-- Site Main End  -->
 		<!-- Site Footer Start  -->
