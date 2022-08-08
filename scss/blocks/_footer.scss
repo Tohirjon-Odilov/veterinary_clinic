@@ -1,9 +1,9 @@
-.site-footer{
+.site-footer {
  background-color: #EBEBEB;
 }
 
 .footer {
- padding: 61px 0 69px;
+ padding: 61px 0 23px;
 }
 
 .footer__logo {
@@ -28,8 +28,6 @@
 
 .footer {
  width: 100%;
- // display: flex;
- // justify-content: space-between;
 
  a {
   text-decoration: none;
@@ -45,6 +43,7 @@
 .footer__list {
  display: flex;
  justify-content: space-between;
+ margin-bottom: 28px;
 }
 
 .footer__item {
@@ -71,8 +70,6 @@
 
  &:active {
   color: rgba(51, 51, 51, 0.7);
-
-
  }
 
 }
@@ -106,8 +103,15 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  // text-align: right;
   color: #333333;
+ }
+
+ a:hover {
+  color: #FFBD54;
+ }
+
+ a:active {
+  color: rgba(51, 51, 51, 0.7);
  }
 
  &::before {
@@ -115,4 +119,13 @@
   position: absolute;
   left: -20px;
  }
+}
+
+.footer__copyright {
+ margin: 0;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 18px;
+ text-align: right;
+ color: #5C5C5C;
 }

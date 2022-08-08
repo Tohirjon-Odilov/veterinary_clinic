@@ -31,12 +31,7 @@
 .service__item {
  width: 193px;
  height: 201px;
- // display: flex;
- // align-items: center;
- // flex-direction: column;
  padding: 30px 32px 42px 35px;
- // background: #FFFFFF;
- // border-radius: 5px 5px 0px 0px;
  background: #FFFFFF;
  border: 1px solid #F3F3F3;
  border-radius: 5px;
@@ -112,11 +107,8 @@
  font-weight: 500;
  font-size: 36px;
  line-height: 20px;
- /* or 56% */
-
  display: flex;
  align-items: center;
-
  color: #333333;
 
 }
@@ -127,9 +119,6 @@
  font-weight: 400;
  font-size: 16px;
  line-height: 20px;
- /* or 125% */
-
-
  color: #949494;
 }
 

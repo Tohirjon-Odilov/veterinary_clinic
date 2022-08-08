@@ -7,7 +7,8 @@
 }
 
 .stay{
- padding: 90px 0 88px 287px;
+ padding: 90px 0 88px 260px;
+ overflow: hidden;
 }
 
 .stay__content {
@@ -20,11 +21,8 @@
  font-weight: 700;
  font-size: 48px;
  line-height: 20px;
- /* or 42% */
-
  display: flex;
  align-items: center;
-
  color: #FFFFFF;
 }
 
@@ -45,7 +43,7 @@ form input {
  line-height: 20px;
  display: flex;
  align-items: center;
- color: #949494;
+ color: #333333;
  border-radius: 5px;
  border: 2px solid transparent;
  outline-color: #FFBD54;
@@ -65,6 +63,6 @@ form input:active::placeholder {
 .stay__img {
  position: absolute;
  top: -126px;
- right: 0;
+ right: calc(50% - 670px);
  z-index: 1;
 }

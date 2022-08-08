@@ -1,5 +1,4 @@
 .site-header {
- // margin-bottom: 100px;
  width: 100%;
  background-color: #F9F8F8;
  position: fixed;
@@ -14,7 +13,6 @@
 .header {
  padding: 11px 0 9px;
  width: 1117px;
- // @include fl();
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -35,12 +33,10 @@ address {
  height: 13px;
  display: inline-block;
  margin-right: 9px;
- // margin-bottom: 3px;
  content: url(../../images/house.svg);
 }
 
 .header__phone {
- // @include fl($flex-start, $center);
  display: flex;
  align-items: center;
  justify-content: center;
@@ -102,7 +98,6 @@ address {
   color: #333333;
 
   span {
-   // font-weight: 500;
    font-size: 15px;
   }
  }
@@ -130,7 +125,6 @@ address {
  display: flex;
  align-items: center;
  justify-content: space-between;
- // @include fl();
  position: relative;
 }
 
@@ -155,12 +149,10 @@ address {
 
 .navbar__list {
  margin: 0;
- // margin-left: 90px;
  padding: 0;
  display: flex;
  align-items: center;
  justify-content: space-between;
- // @include fl();
  list-style: none;
  gap: 50px;
 }
@@ -185,7 +177,6 @@ address {
 }
 
 .navbar__item:first-child {
- // @include fl($flex-start, $center);
  display: flex;
  align-items: center;
  justify-content: center;
@@ -201,7 +192,6 @@ address {
 }
 
 .navbar__right-wrapper {
- // @include fl();
  display: flex;
  align-items: center;
  justify-content: space-between;
